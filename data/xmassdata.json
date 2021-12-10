@@ -1,0 +1,17 @@
+[
+    {
+        "atmero": "20",
+        "piros": "igaz",
+        "alakzat": "gömb"
+    },
+    {
+        "atmero": "16",
+        "piros": "igaz",
+        "alakzat": "alma"
+    },
+    {
+        "atmero": "10",
+        "piros": "hamis",
+        "alakzat": "gömb"
+    }
+]
