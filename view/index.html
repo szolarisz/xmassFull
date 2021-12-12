@@ -8,6 +8,19 @@
 </head>
 <body>
     <h1>Karácsonyi díszek</h1>
+    <div id="xmassformdoboz">
+    <form id="xmassform">
+        <label>Add meg az átmérőt mm-ben:<input type="number" name="meret" ></label><br>
+        <label>Arany színű<input type="checkbox" name="piros" > (alapból piros)</label><br>
+        <label>Milyen alakzat kerül a fára:<select name="alakzat">
+            <option value="alma">Alma</option>
+            <option value="gomb">Gömb</option>
+        </select></label><br>
+        <button type="submit" class="btn btn-outline-danger">Új alakzat felvétele</button>
+    </form>
+    <button id="diszlista" class="btn btn-primary">Az eddig felvitt díszek listája</button>  
+    </div>
+    <div id="diszeredmeny"></div>
     <script src="munkas.js"></script>
 </body>
 </html>
